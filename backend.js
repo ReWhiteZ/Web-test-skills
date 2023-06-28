@@ -2,12 +2,14 @@ function entername(){
     var username = document.getElementById("Name").value;
 
     if(username != "") {
+        localStorage.setItem("Name", username)
         location.href = "Play.html"
-        //document.getElementById("Name").innerHTML = username;
     }
 }
 
 document.addEventListener('DOMContentLoaded', function(){
+    document.getElementById("getname").innerHTML = localStorage.getItem("Name");
+
     const form = document.getElementById('questionAnswer');
     form.addEventListener('submit', function(event){
         event.preventDefault();

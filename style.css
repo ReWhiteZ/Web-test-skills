@@ -2,6 +2,16 @@
     text-align: center;
     padding: 70px 0;
     font-size: 20px;
+    border: 1px solid #739955;
+    width: 300px;
+    height: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 body {
@@ -41,6 +51,17 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.Hello span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    height: 10%;
 }
 
 
