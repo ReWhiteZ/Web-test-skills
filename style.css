@@ -1,0 +1,46 @@
+.signinbox {
+    text-align: center;
+    padding: 70px 0;
+    font-size: 20px;
+}
+
+body {
+    font-family: monospace;
+}
+
+.nextbut {
+    font-size: 15px;
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: #08096c;
+}
+
+.nextbut:hover {
+    font-size: 17px;
+    color: #890000;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #739955;
+    font-size: 17px;
+}
+
+.question {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.image {
+    height: 50vh;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
