@@ -13,7 +13,6 @@ function checkanswer(qc){
     }
 }
 
-
 document.addEventListener('DOMContentLoaded', function(){
     document.getElementById("getname").innerHTML = localStorage.getItem("Name");
 

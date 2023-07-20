@@ -38,7 +38,9 @@ input[type=text] {
 }
 
 .question {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
@@ -47,7 +49,7 @@ ul {
 
 .image {
     height: 50vh;
-
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -58,10 +60,11 @@ ul {
     font-weight: bold;
 }
 
-.choice {
+#questionAnswer{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 10%;
+    align-items: center;
 }
 
 
