@@ -14,7 +14,7 @@ function checkanswer(qc){
 }
 
 document.addEventListener('DOMContentLoaded', function(){
-    document.getElementById("getname").innerHTML = localStorage.getItem("Name");
+    document.getElementById("getname").innerHTML = localStorage.getItem("Name") + "!";
 
     const form = document.getElementById('questionAnswer');
     form.addEventListener('submit', function(event){

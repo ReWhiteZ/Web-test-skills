@@ -31,16 +31,14 @@ body {
     color: #890000;
 }
 
-input[type=text] {
+#Name {
     border: none;
-    border-bottom: 2px solid #739955;
-    font-size: 17px;
+    border-bottom: 1px solid#739955;
 }
 
 .question {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
 }
 
 ul {
@@ -55,16 +53,31 @@ ul {
     margin-right: auto;
 }
 
+.Hello {
+    margin-top: 1rem;
+}
+
 .Hello span {
     font-size: 40px;
     font-weight: bold;
 }
 
-#questionAnswer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#getname{
+    background-color: #739955;  
+    color: white;
+    padding: 0.50rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+}
+
+.playsubmit {
+    display: grid;
+    place-items: center;
+}
+
+.choice {
+    margin-bottom: 3rem;
 }
 
 
