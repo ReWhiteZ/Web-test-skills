@@ -41,10 +41,6 @@ body {
     place-items: center;
 }
 
-ul {
-    list-style: none;
-}
-
 .image {
     height: 50vh;
     
@@ -62,22 +58,65 @@ ul {
     font-weight: bold;
 }
 
-#getname{
-    background-color: #739955;  
-    color: white;
-    padding: 0.50rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-radius: 1rem;
-}
-
 .playsubmit {
     display: grid;
     place-items: center;
 }
 
-.choice {
+.choicebox {
     margin-bottom: 3rem;
+}
+
+.choice {
+    list-style: none;
+}
+
+.selectbox {
+    display: grid;
+    justify-content: center;
+    justify-items: stretch;
+}
+
+.selectbox a{
+    background-color: #739955;
+    color: white;
+    border-radius: 0.25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 0.50rem;
+    font-size: 5vh;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar {
+    list-style: none;
+    background-color: #739955;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+li a:hover{
+    background-color: #FFBD59;
+}
+
+.navbar li{
+    float: left;
+}
+
+.namecontainer {
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
 }
 
 

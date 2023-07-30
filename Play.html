@@ -9,13 +9,16 @@
     <script src="backend.js"></script>
 </head>
 <body>
+    <div class="navbar">
+        <li><a href="index.html">Home</a></li>
+    </div>
     <header class="Hello"><span>Hello, <span id="getname"></span></span></header>
     <section>
         <div class="question">
             <form id="questionAnswer">
-                <div class="choice">
+                <div class="choicebox">
                 <h2>1. คุณคิดว่าภูรินทร์หล่อมั้ยครับ?</h2>
-                    <ul>
+                    <ul class="choice">
                         <li><input type="radio" name="1" value="หล่อ">หล่อ</li>
                         <li><input type="radio" name="1" value="หล่อมาก">หล่อมาก</li>
                         <li><input type="radio" name="1" value="หล่อโคตรๆ">หล่อโคตรๆ</li>
@@ -23,21 +26,21 @@
                     </ul>
                 
                 <h2>2. ภูรินทร์คือใครครับ?</h2>
-                    <ul>
+                    <ul class="choice">
                         <li><input type="radio" name="2" value="เด็กนักเรียนคนนึง">เด็กนักเรียนคนนึง</li>
                         <li><input type="radio" name="2" value="Programmer">Programmer</li>
                         <li><input type="radio" name="2" value="Hacker">Hacker</li>
                         <li><input type="radio" name="2" value="คนหล่อ">คนหล่อ</li>
                     </ul>
                 <h2>3. ทำไมคุณต้องมาเล่นเกมนี้ครับ?</h2>
-                    <ul>
+                    <ul class="choice">
                         <li><input type="radio" name="3" value="ไม่รู้สิ">ไม่รู้สิ</li>
                         <li><input type="radio" name="3" value="กูแค่มาตรวจงานจ้า">กูแค่มาตรวจงานจ้า</li>
                         <li><input type="radio" name="3" value="หลงมา">หลงมา</li>
                         <li><input type="radio" name="3" value="เพราะมันคือสุดยอดเกมแห่งปี">เพราะมันคือสุดยอดเกมแห่งปี</li>
                     </ul>
                 <h2>4. คุณอยากเห็นหน้าผู้พัฒนาเว็บนี้มั้ยครับ?</h2>
-                    <ul>
+                    <ul class="choice">
                         <li><input type="radio" name="4" value="อยาก">อยาก</li>
                         <li><input type="radio" name="4" value="ไม่อยาก">ไม่อยาก</li>
                     </ul>
